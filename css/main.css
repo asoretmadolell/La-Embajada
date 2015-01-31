@@ -41,10 +41,9 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 **********************/
 
 #envoltorio {
-	background: red;
 	height: 100%;
 	max-height: 100%;
-	width: 2200px;
+	width: 3553px;
 }
 
 /*******************
@@ -59,29 +58,53 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 
 #superior {
 	position: relative;
-	background: green;
+	background: transparent repeat-x bottom url(../img/cielo.png);
 	height: 75%;
 	width: 100%;
+}
+
+/* MONTES */
+
+.montes {
+	background: transparent no-repeat url(../img/montes.png);
+	width: 3553px;
+	height: 171px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+/* CRUCETA */
+
+.cruceta {
+	background: transparent no-repeat url(../img/cruceta.png);
+	width: 129px;
+	height: 194px;
+	position: absolute;
+	bottom: 0;
+	left: 700px;
+}
+
+/* ARBOLES 1 */
+
+.arboles-1 {
+	background: transparent no-repeat url(../img/arboles-1.png);
+	width: 328px;
+	height: 134px;
+	position: absolute;
+	bottom: 0;
+	left: 900px;
 }
 
 /* ZEPPELIN */
 
 #zeppelin {
-	background: red;
+	background: transparent no-repeat url(../img/zeppelin.png);
 	width: 298px;
 	height: 135px;
 	position: fixed;
 	left: 10%;
 	top: 40%;
-}
-
-.prueba-superior {
-	width: 20px;
-	height: 20px;
-	background: cyan;
-	position: absolute;
-	bottom: 0;
-	left: 100px;
 }
 
 /*****************
@@ -96,18 +119,9 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 
 #inferior {
 	position: relative;
-	background: blue;
+	background: #DDD;
 	height: 25%;
 	width: 100%;
-}
-
-.prueba-inferior {
-	width: 20px;
-	height: 20px;
-	background: lime;
-	position: absolute;
-	top: 0;
-	left: 100px;
 }
 
 /*****************
