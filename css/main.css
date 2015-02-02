@@ -58,21 +58,25 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 
 #superior {
 	position: relative;
-	background: transparent repeat-x bottom url(../img/cielo.png);
+	background: transparent repeat-x bottom url(../img/dia/cielo.png);
 	height: 75%;
 	width: 100%;
 }
 
+#superior.noche { background-image: url(../img/noche/cielo.png); }
+
 /* MONTES */
 
 .montes {
-	background: transparent no-repeat url(../img/montes.png);
+	background: transparent no-repeat url(../img/dia/montes.png);
 	width: 3553px;
 	height: 171px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 }
+
+.montes.noche {	background-image: url(../img/noche/montes.png); }
 
 /* CRUCETA */
 
@@ -88,13 +92,15 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 /* ARBOLES 1 */
 
 .arboles-1 {
-	background: transparent no-repeat url(../img/arboles-1.png);
+	background: transparent no-repeat url(../img/dia/arboles-1.png);
 	width: 328px;
 	height: 134px;
 	position: absolute;
 	bottom: 0;
 	left: 900px;
 }
+
+.arboles-1.noche {	background-image: url(../img/noche/arboles-1.png); }
 
 /* ZEPPELIN */
 
