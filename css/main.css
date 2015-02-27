@@ -58,6 +58,7 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 
 #superior {
 	position: relative;
+	overflow: hidden;
 	height: 97%;
 	width: 100%;
 		background: #63b1e4; /* Navegadores antiguos */
@@ -345,7 +346,7 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 	width: 322px;
 	height: 147px;
 	position: fixed;
-	left: 5%;
+	left: -322px;
 	top: 30%;
 }
 
@@ -362,6 +363,7 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 #inferior {
 	position: relative;
 	background: #DDD;
+	overflow: hidden;
 	height: 3%;
 	width: 100%;
 }
