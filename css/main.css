@@ -43,7 +43,7 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 #envoltorio {
 	height: 100%;
 	max-height: 100%;
-	width: 11577px;
+	width: 14131px;
 }
 
 /*******************
@@ -84,7 +84,7 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 
 .montes {
 	background: transparent no-repeat url(../img/dia/montes.png);
-	width: 11577px;
+	width: 14131px;
 	height: 762px;
 	position: absolute;
 	bottom: 0;
@@ -92,95 +92,75 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 }
 .montes.noche { background-image: url(../img/noche/montes.png); }
 
+.nubes {
+	background: transparent no-repeat url(../img/dia/nubes.png);
+	width: 14132px;
+	height: 762px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nubes.noche { background-image: url(../img/noche/nubes.png); }
+
 .sombras-edificios {
 	background: transparent no-repeat url(../img/dia/sombras-edificios.png);
-	width: 2488px;
-	height: 372px;
+	width: 14122px;
+	height: 762px;
 	position: absolute;
 	bottom: 0;
-	left: 7230px;
+	left: 0;
 }
 .sombras-edificios.noche { background-image: url(../img/noche/sombras-edificios.png); }
 
 .teleferico {
 	background: transparent no-repeat url(../img/dia/teleferico.png);
-	width: 1120px;
-	height: 344px;
+	width: 984px;
+	height: 357px;
 	position: absolute;
-	bottom: 120px;
-	left: 8900px;
+	bottom: 240px;
+	left: 9985px;
 }
 .teleferico.noche { background-image: url(../img/noche/teleferico.png); }
 
-.puente {
-	background: transparent no-repeat url(../img/dia/puente.png);
-	width: 417px;
-	height: 127px;
-	position: absolute;
-	bottom: 80px;
-	left: 8900px;
-}
-.puente.noche { background-image: url(../img/noche/puente.png); }
-
 /* EDIFICIOS */
-
-.cruceta {
-	background: transparent no-repeat url(../img/dia/cruceta.png);
-	width: 432px;
-	height: 596px;
-	position: absolute;
-	bottom: 0;
-	left: 1100px;
-}
-.cruceta.noche { background-image: url(../img/noche/cruceta.png); }
-
-.la-embajada {
-	background: transparent no-repeat url(../img/dia/la-embajada.png);
-	width: 646px;
-	height: 225px;
-	position: absolute;
-	bottom: 0;
-	left: 4550px;
-}
-.la-embajada.noche { background-image: url(../img/noche/la-embajada.png); }
 
 .fabricas {
 	background: transparent no-repeat url(../img/dia/fabricas.png);
-	width: 1641px;
-	height: 323px;
+	width: 1675px;
+	height: 335px;
 	position: absolute;
 	bottom: 0;
-	left: 5600px;
+	left: 5700px;
 }
 .fabricas.noche { background-image: url(../img/noche/fabricas.png); }
 
 .edificios-1 {
 	background: transparent no-repeat url(../img/dia/edificios-1.png);
-	width: 391px;
-	height: 350px;
+	width: 547px;
+	height: 637px;
 	position: absolute;
 	bottom: 0;
-	left: 7750px;
+	left: 8550px;
 }
 .edificios-1.noche { background-image: url(../img/noche/edificios-1.png); }
 
 .rusa {
 	background: transparent no-repeat url(../img/dia/rusa.png);
-	width: 138px;
-	height: 61px;
+	width: 484px;
+	height: 283px;
 	position: absolute;
-	bottom: 30px;
-	left: 2550px;
+	bottom: 85px;
+	left: 9200px;
 }
 .rusa.noche { background-image: url(../img/noche/rusa.png); }
 
 .noria {
 	background: transparent no-repeat url(../img/dia/noria.png);
-	width: 88px;
-	height: 86px;
+	width: 299px;
+	height: 283px;
 	position: absolute;
-	bottom: 30px;
-	left: 2500px;
+	bottom: 100px;
+	left: 9080px;
 }
 .noria.noche { background-image: url(../img/noche/noria.png); }
 
@@ -196,84 +176,174 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 
 .edificios-3 {
 	background: transparent no-repeat url(../img/dia/edificios-3.png);
-	width: 568px;
-	height: 150px;
+	width: 765px;
+	height: 258px;
 	position: absolute;
 	bottom: 0;
-	left: 8500px;
+	left: 9740px;
 }
 .edificios-3.noche { background-image: url(../img/noche/edificios-3.png); }
 
 .edificios-4 {
 	background: transparent no-repeat url(../img/dia/edificios-4.png);
-	width: 407px;
-	height: 318px;
+	width: 758px;
+	height: 561px;
 	position: absolute;
-	bottom: 0;
-	left: 9050px;
+	bottom: 60px;
+	left: 10240px;
 }
 .edificios-4.noche { background-image: url(../img/noche/edificios-4.png); }
+
+.edificios-5 {
+	background: transparent no-repeat url(../img/dia/edificios-5.png);
+	width: 584px;
+	height: 235px;
+	position: absolute;
+	bottom: 0;
+	left: 10490px;
+}
+.edificios-5.noche { background-image: url(../img/noche/edificios-5.png); }
+
+.circo {
+	background: transparent no-repeat url(../img/dia/circo.png);
+	width: 268px;
+	height: 197px;
+	position: absolute;
+	bottom: 0;
+	left: 11100px;
+}
+.circo.noche { background-image: url(../img/noche/circo.png); }
+
+.vallas {
+	background: transparent no-repeat url(../img/dia/vallas.png);
+	width: 1171px;
+	height: 520px;
+	position: absolute;
+	bottom: 0;
+	left: 12660px;
+}
+.vallas.noche { background-image: url(../img/noche/vallas.png); }
 
 /* ARBOLES */
 
 .arboles-1 {
 	background: transparent no-repeat url(../img/dia/arboles-1.png);
-	width: 1021px;
-	height: 374px;
+	width: 3194px;
+	height: 213px;
 	position: absolute;
 	bottom: 0;
-	left: 50px;
+	left: 0;
 }
 .arboles-1.noche { background-image: url(../img/noche/arboles-1.png); }
 
 .arboles-2 {
 	background: transparent no-repeat url(../img/dia/arboles-2.png);
-	width: 3061px;
-	height: 374px;
+	width: 1867px;
+	height: 208px;
 	position: absolute;
 	bottom: 0;
-	left: 1550px;
+	left: 3920px;
 }
 .arboles-2.noche { background-image: url(../img/noche/arboles-2.png); }
 
 .arboles-3 {
 	background: transparent no-repeat url(../img/dia/arboles-3.png);
-	width: 419px;
-	height: 208px;
+	width: 1241px;
+	height: 210px;
 	position: absolute;
 	bottom: 0;
-	left: 5200px;
+	left: 7340px;
 }
 .arboles-3.noche { background-image: url(../img/noche/arboles-3.png); }
 
 .arboles-4 {
 	background: transparent no-repeat url(../img/dia/arboles-4.png);
-	width: 534px;
-	height: 177px;
+	width: 681px;
+	height: 196px;
 	position: absolute;
 	bottom: 0;
-	left: 7230px;
+	left: 9080px;
 }
 .arboles-4.noche { background-image: url(../img/noche/arboles-4.png); }
 
 .arboles-5 {
 	background: transparent no-repeat url(../img/dia/arboles-5.png);
-	width: 361px;
-	height: 120px;
+	width: 3100px;
+	height: 191px;
 	position: absolute;
 	bottom: 0;
-	left: 8150px;
+	left: 11040px;
 }
 .arboles-5.noche { background-image: url(../img/noche/arboles-5.png); }
 
-/* ADORNOS */
+/* ADORNOS Y DEMÁS */
+
+.cruceta {
+	background: transparent no-repeat url(../img/dia/cruceta.png);
+	width: 432px;
+	height: 597px;
+	position: absolute;
+	bottom: 0;
+	left: 1100px;
+}
+.cruceta.noche { background-image: url(../img/noche/cruceta.png); }
+
+.bandera {
+	background: transparent no-repeat url(../img/dia/bandera.png);
+	width: 37px;
+	height: 42px;
+	position: absolute;
+	bottom: 541px;
+	left: 2998px;
+}
+.bandera.noche { background-image: url(../img/noche/bandera.png); }
+
+.cartel-embajada {
+	background: transparent no-repeat url(../img/dia/cartel-embajada.png);
+	width: 308px;
+	height: 100px;
+	position: absolute;
+	bottom: 243px;
+	left: 3632px;
+}
+.cartel-embajada.noche { background-image: url(../img/noche/cartel-embajada.png); }
+
+.la-embajada {
+	background: transparent no-repeat url(../img/dia/la-embajada.png);
+	width: 799px;
+	height: 268px;
+	position: absolute;
+	bottom: 0;
+	left: 3150px;
+}
+.la-embajada.noche { background-image: url(../img/noche/la-embajada.png); }
+
+.grua {
+	background: transparent no-repeat url(../img/dia/grua.png);
+	width: 213px;
+	height: 173px;
+	position: absolute;
+	bottom: 242px;
+	left: 6245px;
+}
+.grua.noche { background-image: url(../img/noche/grua.png); }
+
+.humo {
+	background: transparent no-repeat url(../img/dia/humo.png);
+	width: 1597px;
+	height: 368px;
+	position: absolute;
+	bottom: 180px;
+	left: 5780px;
+}
+.humo.noche { background-image: url(../img/noche/humo.png); }
 
 /* ZEPPELIN */
 
 #zeppelin {
 	background: transparent no-repeat url(../img/dia/zeppelin.png);
-	width: 364px;
-	height: 160px;
+	width: 322px;
+	height: 147px;
 	position: fixed;
 	left: 5%;
 	top: 30%;
