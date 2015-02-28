@@ -30,6 +30,12 @@ a:focus, a:active { outline:none; }
 ::selection { background:#D55B25; color:#FFFFFF; text-shadow:none; }
 a:link { -webkit-tap-highlight-color:#D55B25; }
 
+/* ESTILOS GENERALES */
+
+h1, h2, h3, h4, p, span {
+	color: #002E59;
+}
+
 /*************
 * FIN - BODY *
 *************/
@@ -346,9 +352,54 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 	width: 322px;
 	height: 147px;
 	position: fixed;
-	left: -322px;
 	top: 30%;
+		/* introducción */
+		left: -322px;
 }
+
+/* PRIMER PLANO */
+
+.cruceta {
+	background: transparent no-repeat url(../img/dia/cruceta.png);
+	width: 432px;
+	height: 597px;
+	position: absolute;
+	bottom: 0;
+	left: 1100px;
+}
+.cruceta.noche { background-image: url(../img/noche/cruceta.png); }
+
+/* TEXTOS */
+
+.texto-1 {
+	width: 700px;
+	position: absolute;
+	left: 50px;
+	text-align: center;
+		/* introducción */
+		top: -150px;
+		opacity: 0;
+}
+
+	.texto-1 span {
+		font-family: Impact;
+		font-size: 60px;
+	}
+
+.texto-2 {
+	width: 700px;
+	position: absolute;
+	left: 50px;
+	text-align: center;
+		/* introducción */
+		bottom: -100px;
+		opacity: 0;
+}
+
+	.texto-2 span {
+		font-family: Arial;
+		font-size: 30px;
+	}
 
 /*****************
 * FIN - SUPERIOR *

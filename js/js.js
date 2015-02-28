@@ -4,8 +4,11 @@
 *                         *
 **************************/
 
-$(document).ready(function comenzarIntroducciones() {
-	zeppelinIntro();
+$(document).ready(function comenzarIntroducciones()
+{
+	texto1Intro();
+	texto2Intro();
+	zeppelinIntro( comenzarAnimaciones );
 });
 
 /***********************
@@ -18,9 +21,10 @@ $(document).ready(function comenzarIntroducciones() {
 *                      *
 ***********************/
 
-$(document).ready(function comenzarAnimaciones() {
+function comenzarAnimaciones()
+{
 	zeppelinAnim();
-});
+};
 
 /********************
 * FIN - ANIMACIONES *
