@@ -1,5 +1,5 @@
 $(document).ready( function () {
-    //obtenerHoraActual();
+    obtenerHoraActual();
 } );
 
 function obtenerHoraActual() {

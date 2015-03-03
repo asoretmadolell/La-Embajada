@@ -35,6 +35,9 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 h1, h2, h3, h4, p, span {
 	color: #002E59;
 }
+#superior.noche h1, #superior.noche h2, #superior.noche h3, #superior.noche h4, #superior.noche p, #superior.noche span {
+	color: #63b1e4;
+}
 
 /*************
 * FIN - BODY *
@@ -67,27 +70,36 @@ h1, h2, h3, h4, p, span {
 	overflow: hidden;
 	height: 97%;
 	width: 100%;
-		background: #63b1e4; /* Navegadores antiguos */
-		background: -moz-linear-gradient(top,  #63b1e4 0%, #bbdaec 50%, #f4f5f6 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#63b1e4), color-stop(50%,#bbdaec), color-stop(100%,#f4f5f6)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #63b1e4 0%,#bbdaec 50%,#f4f5f6 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #63b1e4 0%,#bbdaec 50%,#f4f5f6 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #63b1e4 0%,#bbdaec 50%,#f4f5f6 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  #63b1e4 0%,#bbdaec 50%,#f4f5f6 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b1e4', endColorstr='#f4f5f6',GradientType=0 ); /* IE6-9 */
+		background: #7cc3e8; /* Navegadores antiguos */
+		background: -moz-linear-gradient(top,  #7cc3e8 0%, #dbeaf1 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7cc3e8), color-stop(100%,#dbeaf1)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #7cc3e8 0%,#dbeaf1 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #7cc3e8 0%,#dbeaf1 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #7cc3e8 0%,#dbeaf1 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #7cc3e8 0%,#dbeaf1 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cc3e8', endColorstr='#dbeaf1',GradientType=0 ); /* IE6-9 */
 }
 #superior.noche {
-		background: #00000d; /* Navegadores antiguos */
-		background: -moz-linear-gradient(top,  #00000d 0%, #708a9b 50%, #85a3b9 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00000d), color-stop(50%,#708a9b), color-stop(100%,#85a3b9)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #00000d 0%,#708a9b 50%,#85a3b9 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #00000d 0%,#708a9b 50%,#85a3b9 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #00000d 0%,#708a9b 50%,#85a3b9 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  #00000d 0%,#708a9b 50%,#85a3b9 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000d', endColorstr='#85a3b9',GradientType=0 ); /* IE6-9 */
+		background: #020017; /* Navegadores antiguos */
+		background: -moz-linear-gradient(top,  #020017 0%, #6491ad 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#020017), color-stop(100%,#6491ad)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #020017 0%,#6491ad 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #020017 0%,#6491ad 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #020017 0%,#6491ad 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #020017 0%,#6491ad 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020017', endColorstr='#6491ad',GradientType=0 ); /* IE6-9 */
 }
 
 /* PAISAJE */
+
+.estrellas {
+	width: 14132px;
+	height: 1500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.estrellas.noche { background: transparent no-repeat url(../img/noche/estrellas.png); }
 
 .montes {
 	background: transparent no-repeat url(../img/dia/montes.png);
@@ -97,7 +109,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 0;
 }
-.montes.noche { background-image: url(../img/noche/montes.png); }
 
 .nubes {
 	background: transparent no-repeat url(../img/dia/nubes.png);
@@ -107,7 +118,7 @@ h1, h2, h3, h4, p, span {
 	top: 0;
 	left: 0;
 }
-.nubes.noche { background-image: url(../img/noche/nubes.png); }
+.nubes.noche { background: transparent; }
 
 .sombras-edificios {
 	background: transparent no-repeat url(../img/dia/sombras-edificios.png);
@@ -117,7 +128,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 0;
 }
-.sombras-edificios.noche { background-image: url(../img/noche/sombras-edificios.png); }
 
 .teleferico {
 	background: transparent no-repeat url(../img/dia/teleferico.png);
@@ -127,7 +137,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 240px;
 	left: 9985px;
 }
-.teleferico.noche { background-image: url(../img/noche/teleferico.png); }
 
 /* EDIFICIOS */
 
@@ -139,7 +148,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 5700px;
 }
-.fabricas.noche { background-image: url(../img/noche/fabricas.png); }
 
 .edificios-1 {
 	background: transparent no-repeat url(../img/dia/edificios-1.png);
@@ -149,7 +157,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 8550px;
 }
-.edificios-1.noche { background-image: url(../img/noche/edificios-1.png); }
 
 .rusa {
 	background: transparent no-repeat url(../img/dia/rusa.png);
@@ -159,7 +166,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 85px;
 	left: 9200px;
 }
-.rusa.noche { background-image: url(../img/noche/rusa.png); }
 
 .noria {
 	background: transparent no-repeat url(../img/dia/noria.png);
@@ -169,37 +175,33 @@ h1, h2, h3, h4, p, span {
 	bottom: 100px;
 	left: 9080px;
 }
-.noria.noche { background-image: url(../img/noche/noria.png); }
 
 .edificios-2 {
 	background: transparent no-repeat url(../img/dia/edificios-2.png);
-	width: 216px;
-	height: 316px;
+	width: 392px;
+	height: 576px;
 	position: absolute;
 	bottom: 0;
-	left: 2700px;
+	left: 9910px;
 }
-.edificios-2.noche { background-image: url(../img/noche/edificios-2.png); }
 
 .edificios-3 {
 	background: transparent no-repeat url(../img/dia/edificios-3.png);
-	width: 765px;
-	height: 258px;
-	position: absolute;
-	bottom: 0;
-	left: 9740px;
-}
-.edificios-3.noche { background-image: url(../img/noche/edificios-3.png); }
-
-.edificios-4 {
-	background: transparent no-repeat url(../img/dia/edificios-4.png);
 	width: 758px;
 	height: 561px;
 	position: absolute;
 	bottom: 60px;
 	left: 10240px;
 }
-.edificios-4.noche { background-image: url(../img/noche/edificios-4.png); }
+
+.edificios-4 {
+	background: transparent no-repeat url(../img/dia/edificios-4.png);
+	width: 765px;
+	height: 258px;
+	position: absolute;
+	bottom: 0;
+	left: 9740px;
+}
 
 .edificios-5 {
 	background: transparent no-repeat url(../img/dia/edificios-5.png);
@@ -209,7 +211,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 10490px;
 }
-.edificios-5.noche { background-image: url(../img/noche/edificios-5.png); }
 
 .circo {
 	background: transparent no-repeat url(../img/dia/circo.png);
@@ -219,7 +220,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 11100px;
 }
-.circo.noche { background-image: url(../img/noche/circo.png); }
 
 .vallas {
 	background: transparent no-repeat url(../img/dia/vallas.png);
@@ -229,7 +229,24 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 12660px;
 }
-.vallas.noche { background-image: url(../img/noche/vallas.png); }
+
+.focos-1 {
+	width: 351px;
+	height: 308px;
+	position: absolute;
+	bottom: 415px;
+	left: 8750px;	
+}
+.focos-1.noche { background: transparent no-repeat url(../img/noche/focos-1.png); }
+
+.focos-2 {
+	width: 469px;
+	height: 347px;
+	position: absolute;
+	bottom: 280px;
+	left: 9950px;
+}
+.focos-2.noche { background: transparent no-repeat url(../img/noche/focos-2.png); }
 
 /* ARBOLES */
 
@@ -241,7 +258,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 0;
 }
-.arboles-1.noche { background-image: url(../img/noche/arboles-1.png); }
 
 .arboles-2 {
 	background: transparent no-repeat url(../img/dia/arboles-2.png);
@@ -251,7 +267,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 3920px;
 }
-.arboles-2.noche { background-image: url(../img/noche/arboles-2.png); }
 
 .arboles-3 {
 	background: transparent no-repeat url(../img/dia/arboles-3.png);
@@ -261,7 +276,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 7340px;
 }
-.arboles-3.noche { background-image: url(../img/noche/arboles-3.png); }
 
 .arboles-4 {
 	background: transparent no-repeat url(../img/dia/arboles-4.png);
@@ -271,7 +285,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 9080px;
 }
-.arboles-4.noche { background-image: url(../img/noche/arboles-4.png); }
 
 .arboles-5 {
 	background: transparent no-repeat url(../img/dia/arboles-5.png);
@@ -281,7 +294,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 11040px;
 }
-.arboles-5.noche { background-image: url(../img/noche/arboles-5.png); }
 
 /* ADORNOS Y DEMÁS */
 
@@ -293,7 +305,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 1100px;
 }
-.cruceta.noche { background-image: url(../img/noche/cruceta.png); }
 
 .bandera {
 	background: transparent no-repeat url(../img/dia/bandera.png);
@@ -303,7 +314,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 541px;
 	left: 2998px;
 }
-.bandera.noche { background-image: url(../img/noche/bandera.png); }
 
 .cartel-embajada {
 	background: transparent no-repeat url(../img/dia/cartel-embajada.png);
@@ -313,7 +323,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 243px;
 	left: 3632px;
 }
-.cartel-embajada.noche { background-image: url(../img/noche/cartel-embajada.png); }
 
 .la-embajada {
 	background: transparent no-repeat url(../img/dia/la-embajada.png);
@@ -333,7 +342,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 242px;
 	left: 6245px;
 }
-.grua.noche { background-image: url(../img/noche/grua.png); }
 
 .humo {
 	background: transparent no-repeat url(../img/dia/humo.png);
@@ -343,7 +351,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 180px;
 	left: 5780px;
 }
-.humo.noche { background-image: url(../img/noche/humo.png); }
 
 /* ZEPPELIN */
 
@@ -367,7 +374,6 @@ h1, h2, h3, h4, p, span {
 	bottom: 0;
 	left: 1100px;
 }
-.cruceta.noche { background-image: url(../img/noche/cruceta.png); }
 
 /* TEXTOS */
 
@@ -399,6 +405,37 @@ h1, h2, h3, h4, p, span {
 	.texto-2 span {
 		font-family: Arial;
 		font-size: 30px;
+	}
+
+.texto-3 {
+	width: 600px;
+	position: absolute;
+	top: 10%;
+	left: 4050px;
+}
+
+	.texto-3 h1 {
+		position: relative;
+		width: 500px;
+		left: -520px;
+		top: 20px;
+		padding: 0 40px 10px 0;
+		border-bottom: 4px double #fff;
+		text-align: right;
+		font-family: Impact;
+		font-size: 70px;
+	}
+
+	.texto-3 > .parrafo {
+		border-left: 1px solid #fff;
+		padding: 40px 0 100px 20px;
+	}
+
+	.texto-3 p {
+		margin: 0 0 15px;
+		font-family: Arial;
+		font-size: 14px;
+		line-height: 18px;
 	}
 
 /*****************
