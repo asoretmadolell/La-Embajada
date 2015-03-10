@@ -1,3 +1,6 @@
 [submodule "js/SmoothScroll"]
 	path = js/SmoothScroll
 	url = https://gist.github.com/galambalazs/6477177
+[submodule "js/bpopup"]
+	path = js/bpopup
+	url = https://github.com/dinbror/bpopup

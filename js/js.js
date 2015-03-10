@@ -1,15 +1,19 @@
+$(document).ready(function() {
+    comenzarIntroducciones();
+})
+
 /**************************
 *                         *
 * INICIO - INTRODUCCIONES *
 *                         *
 **************************/
 
-$(document).ready(function comenzarIntroducciones()
+function comenzarIntroducciones()
 {
 	texto1Intro();
 	texto2Intro();
 	zeppelinIntro( comenzarAnimaciones );
-});
+};
 
 /***********************
 * FIN - INTRODUCCIONES *

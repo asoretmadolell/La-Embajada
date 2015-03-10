@@ -32,10 +32,22 @@ a:link { -webkit-tap-highlight-color:#D55B25; }
 
 /* ESTILOS GENERALES */
 
-h1, h2, h3, h4, p, span {
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+li {
 	color: #002E59;
 }
-#superior.noche h1, #superior.noche h2, #superior.noche h3, #superior.noche h4, #superior.noche p, #superior.noche span {
+#superior.noche h1,
+#superior.noche h2,
+#superior.noche h3,
+#superior.noche h4,
+#superior.noche p,
+#superior.noche span,
+#superior.noche li {
 	color: #63b1e4;
 }
 
@@ -108,6 +120,15 @@ h1, h2, h3, h4, p, span {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+
+.bandera {
+	background: transparent no-repeat url(../img/dia/bandera.png);
+	width: 37px;
+	height: 42px;
+	position: absolute;
+	bottom: 541px;
+	left: 2998px;
 }
 
 .nubes {
@@ -297,24 +318,6 @@ h1, h2, h3, h4, p, span {
 
 /* ADORNOS Y DEMÁS */
 
-.cruceta {
-	background: transparent no-repeat url(../img/dia/cruceta.png);
-	width: 432px;
-	height: 597px;
-	position: absolute;
-	bottom: 0;
-	left: 1100px;
-}
-
-.bandera {
-	background: transparent no-repeat url(../img/dia/bandera.png);
-	width: 37px;
-	height: 42px;
-	position: absolute;
-	bottom: 541px;
-	left: 2998px;
-}
-
 .cartel-embajada {
 	background: transparent no-repeat url(../img/dia/cartel-embajada.png);
 	width: 308px;
@@ -438,6 +441,56 @@ h1, h2, h3, h4, p, span {
 		line-height: 18px;
 	}
 
+.texto-4 {
+	width: 600px;
+	position: absolute;
+	top: 10%;
+	left: 7000px;
+}
+
+	.texto-4 h1 {
+		position: relative;
+		width: 500px;
+		left: -520px;
+		top: 20px;
+		padding: 0 40px 10px 0;
+		border-bottom: 4px double #fff;
+		text-align: right;
+		font-family: Impact;
+		font-size: 70px;
+	}
+
+	.texto-4 > ul {
+		border-left: 1px solid #fff;
+		padding: 40px 0 40px 40px;
+	}
+
+	.texto-4 > ul > li {
+		cursor: pointer;
+		padding: 15px 0;
+		font-family: Arial;
+		font-size: 16px;
+		line-height: 18px;
+		text-transform: uppercase;
+	}
+
+	.texto-4 > ul > li:after {
+		content: '·';
+		position: absolute;
+		left: 25px;
+		font-size: 40px;
+		color: #fff;
+	}
+
+	.texto-4 > ul > li:nth-child(even) {
+		position: relative;
+		left: -200px;
+	}
+
+	.texto-4 > ul > li:nth-child(even):after {
+		left: auto;
+	}
+
 /*****************
 * FIN - SUPERIOR *
 *****************/
@@ -459,3 +512,48 @@ h1, h2, h3, h4, p, span {
 /*****************
 * FIN - INFERIOR *
 *****************/
+
+/******************
+*                 *
+* INICIO - POPUPS *
+*                 *
+******************/
+
+.popup {
+	display: none;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	height: 500px;
+	width: 700px;
+	border: 5px solid #fff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+}
+
+.popup .cerrar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	cursor: pointer;
+}
+
+.popup-servicios .cabecera {
+	height: 200px;
+	background-color: #75BACA;
+	text-align: center;
+}
+
+.popup-servicios h2 {
+	font-family: Impact;
+	color: #fff;
+	font-size: 40px;
+}
+
+/***************
+* FIN - POPUPS *
+***************/
