@@ -1,5 +1,5 @@
-$(document).ready(function()
-{
+$(document).ready(function() {
+
     var opcionesPopups = {
         closeClass: 'cerrar',
         positionStyle: 'fixed',
@@ -23,5 +23,17 @@ $(document).ready(function()
         $('.servicios-3').bPopup( opcionesPopups );
     });
 
-    $('.popup').prepend('<div class="cerrar"></div>')
+    $('.popup').prepend('<div class="cerrar"></div>');
+
+    var opcionesSlidersPopups = {
+        buttons: true,
+        bullets: false
+    }
+
+    $('#slider-servicios-1').tinycarousel( opcionesSlidersPopups );
+
+    $('#slider-servicios-2').tinycarousel( opcionesSlidersPopups );
+
+    $('#slider-servicios-3').tinycarousel( opcionesSlidersPopups );
+
 });

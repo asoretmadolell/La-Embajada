@@ -4,3 +4,6 @@
 [submodule "js/bpopup"]
 	path = js/bpopup
 	url = https://github.com/dinbror/bpopup
+[submodule "js/tinycarousel"]
+	path = js/tinycarousel
+	url = https://github.com/wieringen/tinycarousel

@@ -542,17 +542,81 @@ li {
 	cursor: pointer;
 }
 
+/* POPUP-1 */
+
 .popup-servicios .cabecera {
 	height: 200px;
 	background-color: #75BACA;
 	text-align: center;
 }
 
-.popup-servicios h2 {
-	font-family: Impact;
-	color: #fff;
-	font-size: 40px;
+	.popup-servicios h2 {
+		font-family: Impact;
+		color: #fff;
+		font-size: 40px;
+	}
+
+.slider-servicios {
+	overflow: hidden;
 }
+
+	.slider-servicios .viewport {
+		width: 700px;
+		height: 300px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.slider-servicios .disable {
+		visibility: hidden;
+	}
+
+	.slider-servicios .buttons {
+		display: block;
+		position: absolute;
+		top: 66%;
+		left: 0;
+		width: 35px;
+		height: 35px;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 22px;
+		text-align: center;
+		line-height: 35px;
+		background-color: #75BACA;
+		color: #fff;
+			-webkit-border-radius: 35px;
+			-moz-border-radius: 35px;
+			border-radius: 35px;
+	}
+
+	.slider-servicios .next {
+		right: 0;
+		left: auto;
+	}
+
+	.slider-servicios .overview {
+		list-style: none;
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		width: 700px;
+		left: 0;
+		top: 0;
+	}
+
+	.slider-servicios .overview li {
+		float: left;
+		margin: 0 20px 0 0;
+		height: 121px;
+		width: 700px;
+	}
+
+	.slider-servicios .overview li p {
+		font-family: Arial;
+		text-align: justify;
+		padding: 20px 40px 0;
+	}
 
 /***************
 * FIN - POPUPS *
